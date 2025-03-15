@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib';
-import { ImageMorphBotAwscdkStack } from '../lib/image_morph_bot_awscdk-stack';
+import { ImageMorphBotAwscdkStack } from '../lib/image_morph_bot-stack';
 
 const app = new cdk.App();
 new ImageMorphBotAwscdkStack(app, 'ImageMorphBotAwscdkStack', {
