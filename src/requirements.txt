@@ -1,0 +1,13 @@
+discord.py
+glitch-this
+matplotlib
+numpy
+opencv-python
+pilmoji
+Pillow
+python-dotenv
+scikit-image
+emoji==1.6.3
+flask
+discord-py-interactions
+PyNaCl

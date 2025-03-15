@@ -1,0 +1,117 @@
+- name: intro
+  description: "Description of the bot and what it can do."
+
+- name: help
+  description: "Get the list of available commands and descriptions."
+
+- name: ascii
+  description: "Apply an ASCII-style transformation to the provided image."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: emoji
+  description: "Convert the provided image into an emoji-based mosaic."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: pixel
+  description: "Transform the provided image into pixel art."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: blurry
+  description: "Blur the provided image."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: deep-fry
+  description: "Give the provided image a deep-fried look."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: sketch
+  description: "Convert the provided image into a pencil sketch."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: oil-paint
+  description: "Apply an oil paint effect to the provided image."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: watercolor
+  description: "Transform the provided image into watercolor-style art."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: cartoon
+  description: "Give the provided image a cartoon-like appearance."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: glitch
+  description: "Apply a glitch effect to the provided image."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: neon-glow
+  description: "Add a neon glow effect to the provided image."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: pop-art
+  description: "Transform the provided image into pop art style."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: mosaic
+  description: "Convert the provided image into a mosaic."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
+
+- name: sepia
+  description: "Apply a sepia filter to the provided image."
+  options:
+    - name: image
+      description: "Select an image to transform."
+      type: 11
+      required: true
