@@ -15,7 +15,7 @@ export class ImageMorphBotStack extends cdk.Stack {
         timeout: cdk.Duration.seconds(10),
         architecture: lambda.Architecture.X86_64,
         environment: {
-          DISCORD_PUBLIC_KEY: "Put your Discord public key here",
+          DISCORD_PUBLIC_KEY: "4d10ed59bc034353c57034cf863a8ae1d6c7b6f103ab624289548b64e368b651",
         },
       }
     );
