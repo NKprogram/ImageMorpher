@@ -1,8 +1,8 @@
 {
-  "name": "image_morph_bot_awscdk",
+  "name": "image_morph_bot",
   "version": "0.1.0",
   "bin": {
-    "image_morph_bot_awscdk": "bin/image_morph_bot_awscdk.js"
+    "image_morph_bot": "bin/image_morph_bot.js"
   },
   "scripts": {
     "build": "tsc",

@@ -11,3 +11,7 @@ emoji==1.6.3
 flask
 discord-py-interactions
 PyNaCl
+pyyaml
+requests
+mangum
+asgiref

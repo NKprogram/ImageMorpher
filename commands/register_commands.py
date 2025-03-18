@@ -8,7 +8,7 @@ load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 APPLICATION_ID = os.getenv("APPLICATION_ID")
-URL = f"https://discord.com/api/v9/applications/{APPLICATION_ID}/commands"
+URL = f"https://discord.com/api/v10/applications/{APPLICATION_ID}/commands"
 
 
 with open("discord_commands.yaml", "r") as file:

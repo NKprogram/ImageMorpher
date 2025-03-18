@@ -38,7 +38,7 @@ asgi_app = WsgiToAsgi(app)
 handler = Mangum(asgi_app)
 
 
-# Verify the incoming request signature
+# Verify the request signature
 def verify_signature(req):
     signature = req.headers.get("X-Signature-Ed25519")
     timestamp = req.headers.get("X-Signature-Timestamp")
@@ -58,7 +58,7 @@ def verify_signature(req):
 def interactions():
     if not verify_signature(request):
         return "invalid request signature", 401
-    # The entire incoming JSON from Discord
+    # Parse the incoming interaction request
     raw_request = request.json
     print(f"👉 Incoming interaction: {raw_request}")
     # If it's a PING, respond with PONG
@@ -118,7 +118,7 @@ def handle_slash_command(interaction_data):
     with open(local_input_path, "wb") as f:
         f.write(r.content)
 
-    # Determine output filename
+    # Prepare the output path
     base, ext = os.path.splitext(filename)
     suffix = command_name.replace("-", "")  # e.g. "deep-fry" -> "deepfry"
     local_output_path = f"/tmp/{base}_{suffix}{ext}"
