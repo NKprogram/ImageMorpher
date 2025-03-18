@@ -68,10 +68,11 @@ Imagemorpho offers a variety of artistic transformations:
 Imagemorpho is designed to run on **AWS Lambda** using **Mangum** for ASGI compatibility. Deploy using AWS CDK:
 
 ### 📦 Steps:
-1. Install and configure **AWS CLI**:
-   ```sh
-   aws configure
-   ```
+1. **Set up AWS credentials**  
+   - Ensure you have an IAM user with the necessary permissions and configure the AWS CLI:  
+     ```sh
+     aws configure
+     ```
 
 2. Install **AWS CDK**:
    ```sh
