@@ -1,7 +1,7 @@
 # Imagemorpho - The Ultimate Image Morphing Bot!
 
 ## Overview
-Imagemorpho is a Discord bot that transforms images into different styles. You can pixelate, sketch, glitch, and more. It runs on AWS Lambda so the images are processed in the cloud and sent back fast.
+Imagemorpho is a Discord bot that transforms images into different styles like pixel art, sketches, glitches, and more. It can run on AWS Lambda for fast cloud processing, or you can run it locally if needed.
 
 ## Features
 Imagemorpho can apply these effects:
